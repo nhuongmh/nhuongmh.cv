@@ -26,6 +26,6 @@
 
 #activity
 
-#section[ #titleemj("football.svg") #hobbiestitle ]
+// #section[ #titleemj("football.svg") #hobbiestitle ]
 
-#hobbies
+// #hobbies

@@ -1,25 +1,24 @@
 #import "template.typ": *
 
-#let name = "Nakano Miku"
-#let namezh = "中野三玖"
+#let name = "Nhuong M. Hoang"
 #let email = [
-  #icon("email.svg") n.miku0505\@socomo.ne.jp
+  #icon("email.svg") nhuongmh\@gmail.com
 ]
 #let phone = [
   #icon("phone.svg")
-  (+81) 0906914373641
+  (+84) 981683925
 ]
 #let home = [
   #icon("home.svg")
-  #link("https://miku.example.com")[ miku.example.com ]
+  #link("https://nhuongmh.github.io/portfolio")[ https://nhuongmh.github.io/portfolio ]
 ]
 #let github = [
   #icon("github.svg")
-  #link("https://miku.example.com")[ miku ]
+  #link("https://github.com/nhuongmh")[ github.com/nhuongmh ]
 ]
 #let linkin = [
   #icon("linkedin.svg")
-  #link("https://miku.example.com")[ Nakano Miku ]
+  #link("https://www.linkedin.com/in/nhuongmh/")[ Nhuong Hoang ]
 ]
 
 #let author = (
@@ -30,221 +29,123 @@
   github: github,
   linkin: linkin,
 )
-#let authorzh = (
-  name: namezh,
-  email: email,
-  phone: phone,
-  home: home,
-  github: github,
-  linkin: linkin,
-)
 
-#let selftitle = [ Self Introduction ]
-#let selftitlezh = [ 自我总结 ]
+#let selftitle = [ Summary ]
 #let self = [
-  #lorem(64)
-]
-#let selfzh = [
-  管怀馈犬筹鞘旺增半挂剪吹。励川锂撮菌爷钵梁讽途连和枚反？醛佛奋。篇演靶店寺济枪蔗艇胆历昂遗沾，纲锌妈窖腾奠昆捞经羞幕获豌厚她垅妈轲析夯舰墩璃损傍苷兹仑盒面哪核温藏给录伟助晰言航贸轲洼涉姿妇踪孕。瞎列疾俱寿幅虾夕长坐珠助夏踏蛾阮纸浙恢层融噪拿辐拢厦升体曹呢局？
+  "I'm a software engineer with 5 years experience in ... I'm looking for a position in ... Quickly adapt with new technology"
 ]
 
 #let edutitle = [ Education ]
-#let edutitlezh = [ 教育经历 ]
 #let edu = [
   #datedsubsection(
     align(left)[
-      *#lorem(4)* \
-      #lorem(4)
+      *Electrical & Electronics Engineering* \
+      _BE_
     ],
     align(right)[
-      Tokyo, Japan \
-      202x - _present_
+      Ho Chi Minh University of Technology \
+      2014 - 2018
     ]
   )
 
-  #lorem(32)
-
-  #datedsubsection(
-    align(left)[
-      *#lorem(4)* \
-      #lorem(4)
-    ],
-    align(right)[
-      Aichi, Japan \
-      201x - 201x
-    ]
-  )
-
-  #datedsubsection(
-    align(left)[
-      *#lorem(4)* \
-      #lorem(4)
-    ],
-    align(right)[
-      Aichi, Japan \
-      201x - 201x
-    ]
-  )
-]
-#let eduzh = [
-  #datedsubsection(
-    align(left)[
-      *#lorem(4)* \
-      #lorem(4)
-    ],
-    align(right)[
-      东京, 日本 \
-      202x - _现在_
-    ]
-  )
-
-  #lorem(32)
-
-  #datedsubsection(
-    align(left)[
-      *#lorem(4)* \
-      #lorem(4)
-    ],
-    align(right)[
-      爱知, 日本 \
-      201x - 201x
-    ]
-  )
-
-  #datedsubsection(
-    align(left)[
-      *#lorem(4)* \
-      #lorem(4)
-    ],
-    align(right)[
-      爱知, 日本 \
-      201x - 201x
-    ]
-  )
+  GPA: 7.5/10
 ]
 
 #let techtitle = [ Technical Skills ]
-#let techtitlezh = [ 技术能力 ]
 #let tech = [
-  - *Programming*: #lorem(8)
-    - #lorem(8)
-    - #lorem(8)
-  - *Key words*: #lorem(8)
-  - *Tools*: #lorem(8)
-    - #lorem(8)
-    - #lorem(8)
-]
-#let techzh = [
-  - *编程语言*: #lorem(8)
-    - #lorem(8)
-    - #lorem(8)
-  - *关键字*: #lorem(8)
-  - *工具*: #lorem(8)
-    - #lorem(8)
-    - #lorem(8)
+  - *Programming*:
+    - Java: Spring Boot, Java Swing, 
+    - Golang: Gin
+    - Python: 
+    - Shell/Bash Script
+    - Front-end: VueJS
+  - *Database*
+    - MySQL, SQLite3, PostgresSQL, MongoDB
+  - *Others*: 
+    - GNU Linux
+    - ARM-based Architecture
+    - Cloud Computing
+    - Docker
+  - *English*
+    - TOEIC Certificate 780 (Jun 2018)
 ]
 
-#let projecttitle = [ Project Experience ]
-#let projecttitlezh = [ 项目经历 ]
+#let projecttitle = [ Work Experiences ]
 #let projectexperience = [
   #datedsubsection(
     align(left)[
-      *#lorem(4)* \
-      Maintainer
+      *Ampere Computing* \
+      Software Engineer for Platform Validation
     ],
     align(right)[
-      202x - _present_
+      2018 - _present_
     ]
   )
 
-  - #lorem(32)
-  - #lorem(8)
+  - Develop internal and external software tools to support customers on Ampere ARM64-based chip and platforms.
+  - Develop automation test tool (GUI/Web) for server system.
+  - Develop testing scripts, framework for ARM64 server chip on Linux/Windows environment
+  - Develop virtual board system for tools coverage testing
+  - Lead small team with 4 people
 
   #datedsubsection(
     align(left)[
-      *#lorem(4)* \
-      Maintainer
+      *Arrive Technologies* \
+      Logic Design Engineer
     ],
     align(right)[
-      202x - _present_
+      2018
     ]
   )
 
-  - #lorem(32)
-  - #lorem(8)
-]
-#let projectexperiencezh = [
-  #datedsubsection(
-    align(left)[
-      *#lorem(4)* \
-      维护者
-    ],
-    align(right)[
-      202x - _现在_
-    ]
-  )
-
-  - #lorem(32)
-  - #lorem(8)
-
-  #datedsubsection(
-    align(left)[
-      *#lorem(4)* \
-      维护者
-    ],
-    align(right)[
-      202x - _现在_
-    ]
-  )
-
-  - #lorem(32)
-  - #lorem(8)
+  - Joined Design and implement logic circuit target in telecommunication application (SONET/SDH) using Verilog
+  - Implement firmware for telecommunication chip on FPGA-based embeded processor using C++
 ]
 
-#let activitytitle = [ Activity Experience ]
-#let activitytitlezh = [ 活动经历 ]
+#let activitytitle = [ Projects ]
 #let activity = [
   #datedsubsection(
     align(left)[
-      *#lorem(8)* \
-      #lorem(4)
+      *Platform Validation Tool (Ampere)* \
+      Framework Developer
     ],
     align(right)[
-      202x
+      2019 - _present_
     ]
   )
-
-  #lorem(32)
+  - Platform Validation Tools is an application to do various type of testing on server boards that using Ampere chip, it has desktop GUI and Web interface
+  - I reponsible for developing testing framework, running flow, web backend and various other features.
+  - Tech: Java Spring Boot, Java Swing, VueJS, Linux, Hardware, JavaScript, Websocket, Bash/Powershell script, Python
 
   #datedsubsection(
     align(left)[
-      *#lorem(8) *\
-      #lorem(4)
+      *Virtual Board System (Ampere)*\
+      Main Developer
     ],
     align(right)[
-      202x - _present_
+      2023 - _present_
     ]
   )
 
-  #lorem(16)
+  - Virtual Board System is a simple web-app that serve multiple virtual boards, it can mimic behaviour of a real system consoles based on user configuration. It used to do coverage testing for internal tool.
+  - Tech: Golang with Gin, VueJS with Vuetify
 
   #datedsubsection(
     align(left)[
-      *#lorem(8)* \
-      #lorem(4)
+      *Configuration Check Tool (Ampere)* \
+      Main Developer
     ],
     align(right)[
-      202x
+      2022 - _present_
     ]
   )
 
-  - #lorem(8)
-  - #lorem(8)
+  - This tool is used to do configuration check between 2 systems or between a system with reference config. It's mainly for customer debug purposes.
+  - Tech: Golang CLI, Cobra, Hardware, ARM-based architecture, ...
+
 ]
-#let activityzh = activity
 
 #let hobbiestitle = [ Hobbies and Interests ]
-#let hobbiestitlezh = [ 兴趣爱好 ]
 #let hobbies = [
   #lorem(32)
 
