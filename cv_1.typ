@@ -10,10 +10,6 @@
 
 #self
 
-#section[ #titleemj("mortarboard.svg") #edutitle ]
-
-#edu
-
 #section[ #titleemj("seedling.svg") #techtitle ]
 
 #tech
@@ -22,10 +18,14 @@
 
 #projectexperience
 
-#section[ #titleemj("darts.svg") #activitytitle ]
 
-#activity
+// #section[ #titleemj("darts.svg") #projects_section_title ]
 
+// #projects
+
+#section[ #titleemj("mortarboard.svg") #edutitle ]
+
+#edu
 // #section[ #titleemj("football.svg") #hobbiestitle ]
 
 // #hobbies

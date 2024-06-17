@@ -18,7 +18,7 @@
   leftsection[ Project \ Experience ],
   projectexperience,
   leftsection[ Activity \ Experience ],
-  activity,
+  projects,
   leftsection[ Hobbies \ and \ Interests ],
   hobbies,
 ))
