@@ -88,7 +88,7 @@
     - Take part in resolve open sources libraries and 3rd parties components licenses in order to ship package to customers
     - Gain knowledge on server systems hardware and software, debugs issue on Linux
   - *Virtual Systems Managing System*
-    - Web applications to generate and manage virtual systems for testing; each virtual system can mimic behavior of real SUTs on through console based on user configuration
+    - Web applications to generate and manage virtual systems for testing; each virtual system can mimic behavior of real system through consoles based on user configuration
     - Stack: Go with Gin, VueJS with Vuetify, MongoDB
     - Designed framework and was the main developer of the project
     - Used this tool to collaborate and help internal teams boost up development/testing progress
