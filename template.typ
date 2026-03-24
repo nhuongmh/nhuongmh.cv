@@ -101,7 +101,6 @@
       #author.email 
     ],
     align(right)[
-      #author.home \
       #author.github \
       #author.linkin 
     ]
@@ -121,7 +120,7 @@
     number-align: center,
     margin: (
       x: 0.4in,
-      y: 0.2in
+      y: 0.4in
     )
   )
   set text(

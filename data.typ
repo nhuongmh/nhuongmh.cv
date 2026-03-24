@@ -38,7 +38,7 @@
 
 #let selftitle = [ Summary ]
 #let self = [
-  Software engineer with good knowledge in hardware, experienced in designing and developing multiple web projects. Currently focused on backend technologies, especially distributed and high-performance microservice applications.
+  Validation engineer with good knowledge in hardware, software, experienced in testing, debug, developing validation infrastructure for multiple ARM-based CPU processors.
 ]
 
 #let edutitle = [ Education ]
@@ -59,11 +59,11 @@
 
 #let techtitle = [ Technical Skills ]
 #let tech = [
-  - *Languages*: Golang, Java, Python, C, C++, Shell/Bash Script
-  - *Frameworks & Tools*: Gin, Spring/Spring Boot
-  - *Database*: MySQL, SQLite3, PostgreSQL, MongoDB
-  - *Others*: Low level hardware/software knowledge, GNU Linux Kernel, Docker
-  - *English*: TOEIC Certificate 780 (Jun 2018)
+  - *Languages*: Python, C/C++, Golang, Shell/Bash Script
+  - *Hardware Technologies*: ARMv8, DDR4, DDR5, PCIe 
+  - *Working Tools*: Git, Jira, SQL Database 
+  - *Others*: GNU Linux Kernel, Docker
+  - *English*: TOEIC 780
 ]
 
 #let projecttitle = [ Technical Experience ]
@@ -71,46 +71,37 @@
   #datedsubsection(
     align(left)[
       = Ampere Computing \
-      Senior Software Engineer
     ],
     align(right)[
       Dec, 2018 - _present_ \
       HCMC, VN
     ]
   )
-  _Responsible for building test infrastructure through multiple projects to support testing ARM64-based server systems_
-  - *Platform Validation Test Tool*
-    - Microservices project to manage server system under test (SUTs), launching agents to connect and perform testing on SUTs
-    - Stack: Java Spring Boot, Golang, VueJS, Websocket, MySQL, Bash/Powershell, Python, Docker, Apache ActiveMQ
-    - Designed framework architecture, implemented and maintained core features
-    - Continuously optimizing framework to help it scale horizontally as number of SUTs increased
-    - Build up CI/CD pipelines to automatically build and test for changes, generate package releases for customers. (Uses Gitlab CI, Earthly, Docker)
-    - Take part in resolve open sources libraries and 3rd parties components licenses in order to ship package to customers
-    - Gain knowledge on server systems hardware and software, debugs issue on Linux
-  - *Virtual Systems Managing System*
-    - Web applications to generate and manage virtual systems for testing; each virtual system can mimic behavior of real system through consoles based on user configuration
-    - Stack: Go with Gin, VueJS with Vuetify, MongoDB
-    - Designed framework and was the main developer of the project
-    - Used this tool to collaborate and help internal teams boost up development/testing progress
-  - *Test Data Analytics*
-    - Web application to collect and analyze all past test data, virtualizing results on a dashboard for monitoring
-    - Stack: Elastic Search, Apache Airflow, Grafana
-    - Developed tools to collect test data, setup Apache Airflow to schedule and monitor overall workflows
+  _Responsible for platform testing & building test infrastructure through out multiple ARM64-based chip generations_
+  - *Platform Validation Engineer*
+    - Familiar with ARM64 (ARMv8) SoC and related IP such as MESH, GIC, CCM, RDI, ...
+    - Familiar with Linux server boot sequences (Bootloader, UEFI, ATF, Peripherals/IO Init, Kernel Boot, ...)
+    - Familiar with technologies for server and debug such as BMC, NVPARAM, power/temperature management, ... 
+    - Good Understanding on Chip manufacturing stages (fabless) especially in post silicon validation & testing 
+    - Perform system-level validation of ARM-based server platforms, covering CPU cores, DDR, and PCIe subsystems under multiple types workloads, with debug strategy such as read system logs, eye diagrams, ...
+    - Developed and maintained validation frameworks and automation tools (Python/Java/Bash Scripts) to verify platform stability, functionality, and performance
+    - Developed application to collect chip registers data and related debug info through JTAG that helps analyze and compare between good and bad systems.
+    - Utilized Linux-based systems extensively for low-level debugging, scripting, and automation workflows
+    - Collaborated cross-functionally with silicon, firmware, and hardware design teams to debug issues
 
 
   #datedsubsection(
     align(left)[
       = Arrive Technologies \
-      Logic Design Engineer
     ],
     align(right)[
       Jun, 2018 - Dec, 2018 \
       HCMC, VN
     ]
   )
-
-  - Joined design and implementation logic circuit targeted in telecommunication application (SONET/SDH) using Verilog
-  - Implemented firmware for telecommunication chips on FPGA-based embedded processors using C++
+  - *Logic Design Engineer*
+    - Joined design and implementation logic circuit targeted in telecommunication application (SONET/SDH) using Verilog
+    - Implemented firmware for telecommunication chips on FPGA-based embedded processors using C++
 ]
 
 #let projects_section_title = [ Projects ]
